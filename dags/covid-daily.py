@@ -68,7 +68,7 @@ with DAG('covid19_daily',
 
     t3 = EmailOperator(
         task_id='send_email',
-        to=['s6103052422071@email.kmutnb.ac.th'],
+        to=['your@gmail.com'],
         subject='Your covid19 report today is ready',
         html_content='Please check your dashboard. :)'
     )
