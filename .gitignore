@@ -1,0 +1,28 @@
+# Secrets
+.env
+*.key
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Airflow
+logs/
+*.db
+
+# Scraped data
+dags/*.json
+dags/collect/
+
+# Misc
+*.txt
+
+# Notebook
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
